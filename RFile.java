@@ -1,7 +1,6 @@
 import      java.io.FileInputStream;
 import      java.io.FileNotFoundException;
 import      java.io.IOException;
-import      java.io.Exception;
 import      java.io.File;
 
 public class    RFile
@@ -83,7 +82,7 @@ public class    RFile
     {
         String  ret = new String("");
 
-        if (!(this.m_isSet))
+        if (this.m_isSet)
         {
             try
             {
